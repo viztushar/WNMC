@@ -30,8 +30,9 @@ public class NextActivity extends AppCompatActivity {
         if (gnd.isEmpty())
             gnd = getIntent().getExtras().get("female").toString();
 
-        textView.setText("username" + username + "\n" + password + "\n" + email + "\n"
-                + phone + "\n" + interst + "\n" + date + "\n" + time + "\n" + country + "\n" + state + "\n");
+        textView.setText("username " + username + "\n" + "password " + password + "\n" +"email " + email + "\n"
+                + "phone " + phone + "\n" + "interst " + interst + "\n" +"date " + date + "\n" +"time " + time + "\n"
+                + "country " + country + "\n" +"state " + state + "\n");
 
     }
 }
